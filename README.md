@@ -15,7 +15,7 @@ Start Nuke!
 
 ### Usage
 
-Menumaker by default includes a folder inside the Gizmos folder called HWTools.  This is the root folder in which your gizmos will be placed, feel free to rename it!  Menumaker will automatically add PNG icon images to folders, nuke files and gizmos with the same name as their corresponding file.  Folder icons must be placed inside the folder, gizmo icons must be in the same directory and also named the same thing
+Menumaker by default includes a folder inside the Gizmos folder called HWTools.  This is the root folder in which your gizmos will be placed, feel free to rename it and replace the icon!  Menumaker will automatically add PNG icon images to folders, Nuke files and gizmos with the same name as their corresponding file.  Folder icons must be placed inside the folder, gizmo icons must be in the same directory as the gizmo and also named the same thing.
 
 ### Contributing
 
