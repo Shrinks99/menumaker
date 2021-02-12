@@ -1,3 +1,5 @@
+Note: [Nukeshared](https://maxvanleeuwen.com/project/nukeshared/) is a much more comprehensive tool for Nuke plugin management, you should probably be using it instead, it's great!
+
 # Menumaker
 Menumaker is a forked version of Luma Pictures' [automatic creation of menu items script](http://www.nukepedia.com/python/ui/auto-creation-of-menu-items-for-gizmos-menupy) with a few neat additions!  It creates a home for all your gizmos on startup so new gizmos can be simply dropped in the correct folder and Nuke will do the rest!  The days of hardcoding paths are over!
 
@@ -19,4 +21,4 @@ Menumaker by default includes a folder inside the Gizmos folder called HWTools. 
 
 ### Contributing
 
-PRs welcome!  I am by no means a Python wizard and I appreciate anyone who wishes to contribute!  This has been tested on Windows and MacOS with Nuke 12 and while I see no reason why it shouldn't work on Linux I haven't been able to give it a shot over there yet.  Let me know if it works for you!
+PRs welcome!  I am by no means a Python expert and I appreciate anyone who wishes to contribute!  This has been tested on Windows and MacOS with Nuke 12 and while I see no reason why it shouldn't work on Linux I haven't been able to give it a shot over there yet.  Let me know if it works for you!
