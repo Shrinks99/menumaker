@@ -19,7 +19,7 @@ class GizmoPathManager(object):
             not defined, it will use the directory in which this file resides;
             and if it cannot detect that, it will use the pluginPath 
         '''
-        if isinstance(exclude, basestring):
+        if isinstance(exclude, str):
             exclude = re.compile(exclude)
         self.exclude = exclude
         if searchPaths is None:
@@ -103,7 +103,7 @@ class GizmoPathManager(object):
             
         if toolbar is None:
             toolbar = nuke.menu("Nodes")
-        elif isinstance(toolbar, basestring):
+        elif isinstance(toolbar, str):
             toolbar = nuke.menu(toolbar)
         self._recursiveAddGizmoMenuItems(toolbar, self._crawlData,
                                          defaultSubMenu=defaultTopMenu,
@@ -119,7 +119,7 @@ class GizmoPathManager(object):
                 niceName = name[:-4]
             toolbar.addCommand(niceName,"nuke.createNode('%s')" % name)
             
-        for folder, data in crawlData.get('dirs', {}).iteritems():
+        for folder, data in list(crawlData.get('dirs', {}).items()):
             import sys
             subMenu = toolbar.findItem(folder)
             if subMenu is None:
