@@ -21,4 +21,4 @@ Menumaker by default includes a folder inside the Gizmos folder called HWTools. 
 
 ### Contributing
 
-PRs welcome!  I am by no means a Python expert and I appreciate anyone who wishes to contribute!  This has been tested on Windows and MacOS with Nuke 12 and while I see no reason why it shouldn't work on Linux I haven't been able to give it a shot over there yet.  Let me know if it works for you!
+PRs welcome!  I am by no means a Python expert and I appreciate anyone who wishes to contribute!  This has been tested on Windows and MacOS with Nuke 13 and while I see no reason why it shouldn't work on Linux I haven't been able to give it a shot over there yet.  Let me know if it works for you!
