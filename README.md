@@ -1,4 +1,4 @@
-Note: [Nukeshared](https://maxvanleeuwen.com/project/nukeshared/) is a much more comprehensive tool for Nuke plugin management, you should probably be using it instead, it's great!
+Note: [Nukeshared](https://maxvanleeuwen.com/project/nukeshared/) is a much more comprehensive tool for Nuke plugin management, you should probably be using it instead, it's great!  That said, menumaker is still around and works well, it's just smaller in scope.  Need a quick way of loading a couple of custom gizmos for a workshop?  This tool works great for those kinds of scenarios!
 
 # Menumaker
 Menumaker is a forked version of Luma Pictures' [automatic creation of menu items script](http://www.nukepedia.com/python/ui/auto-creation-of-menu-items-for-gizmos-menupy) with a few neat additions!  It creates a home for all your gizmos on startup so new gizmos can be simply dropped in the correct folder and Nuke will do the rest!  The days of hardcoding paths are over!
